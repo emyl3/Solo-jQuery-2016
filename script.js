@@ -12,7 +12,7 @@ $(function(){
 // adds the color block
 function addColor(){
   //sets the variable to the data value of the color button that was clicked
-  $currentColor = $(this).attr('data-color');
+  $currentColor = $(this).data('color');
 
   switch($currentColor){
     //if the color is red...
